@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Happy Birthday! I totally did not forget your birthday</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <style>
+    #body-container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #warning {
+      text-align: center;
+      position: fixed;
+      width: 100vw;
+      font-size: 1rem;
+    }
+    
+    #meme {
+      width: 60%;
+      box-shadow: 0.2rem 0.3rem #888888;
+    }
+    
+    #footer {
+      position: absolute;
+      width: 100vw;
+      height: 5vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .footer-item {
+      font-size: 0.8em;
+    }
+    
+    #new-meme {
+      margin: 0.5rem;
+    }
+    
+    #bday-text {
+      font-size: 2.1rem;
+      margin: 0.5rem;
+    }
+    
+    #des-text {
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="warning" class="alert alert-warning">Watch it at your own risk!</h1>
+  <div class="jumbotron" id="body-container">
+    <h1 class="display-3" id="bday-text">Happy Birthday, Win!</h1>
+    <p class="lead" id="des-text">This is totally not an excuse for me to make a lame ass project like this.</p>
+    <hr class="my-2" />
+    <button id="new-meme" class="btn btn-primary">Generate New Meme</button>
+    <img src="" alt="a random meme" id="meme" />
+    
+  </div>
+  <footer id="footer">
+    <h6 class="footer-item">&copy Copyright 2020</h6>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="footer-item" target="_blank">FAQs</a>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="footer-item" target="_blank">Contact Us</a>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
